@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.5\n"
-"POT-Creation-Date: 2023-11-26 14:27+0100\n"
-"PO-Revision-Date: 2023-11-28 09:01+0100\n"
+"POT-Creation-Date: 2025-10-18 08:25+0200\n"
+"PO-Revision-Date: 2025-10-18 08:25+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -10,44 +10,103 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4.1\n"
+"X-Generator: Poedit 3.8\n"
 "X-Poedit-Basepath: ../../../..\n"
 "X-Poedit-KeywordsList: ;gettext_pl\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: zp-branding.php:13
+#: zp-branding.php:24
 msgid "Replace the default Zenphoto logo on the backend with a custom logo."
 msgstr "Vervang het standaard Zenphoto logo door een eigen logo."
 
-#: zp-branding.php:38
+#: zp-branding.php:28
+msgid ""
+"Only one Zenphoto backend customization plugin may be enabled. Please "
+"disable the <code>admin-branding</code> plugin to use this one."
+msgstr ""
+"Slechts één plugin om de backend aan te passen mag geactiveerd zijn. Om deze "
+"plugin te kunnen gebruiken moet je eerst de <code>admin-branding</code> "
+"plugin deactiveren."
+
+#: zp-branding.php:29
+msgid "Admin"
+msgstr "Admin"
+
+#: zp-branding.php:53
+msgid "Logo for backend"
+msgstr "Logo voor de backend"
+
+#: zp-branding.php:56
+msgid "No logo"
+msgstr "Geen logo"
+
+#: zp-branding.php:57
+msgid "Custom logo"
+msgstr "Custom logo"
+
+#: zp-branding.php:58
+msgid "Default Zenphoto logo"
+msgstr "Standaard Zenphoto logo"
+
+#: zp-branding.php:59
+msgid "Choose what you want to use as logo or no logo at all."
+msgstr "Selecteer wat je wilt gebruiken als logo of helemaal geen logo."
+
+#: zp-branding.php:60
+msgid "Select admin logo image"
+msgstr "Selecteer het logo"
+
+#: zp-branding.php:62
+#, php-format
+msgid ""
+"When <em>Custom logo</em> is selected for <em>Logo for backend</em> you may "
+"select a logo from files in the <em>%s</em> folder.<br>If you use the "
+"<em>elFinder</em> plugin for Uploads, you can upload files to this folder. "
+"Alternatively, you can use FTP to upload your image to the <em>adminlogo</"
+"em> folder."
+msgstr ""
+"Wanneer <em>Custom logo</em> is geselecteerd bij <em>Logo voor de backend</"
+"em> kun je hier een logo selecteren uit de bestanden in de <em>%s</em> map."
+"<br>Als je de <em>elFinder</em> plugin gebruikt voor Uploads kun je "
+"bestanden naar deze map uploaden. Je kunt natuurlijk ook FTP gebruiken "
+"ombestanden naar de <em>adminlogo</em> map te uploaden."
+
+#: zp-branding.php:63
 msgid "Width"
 msgstr "Breedte"
 
-#: zp-branding.php:40
-msgid "The width of the image (px). The height is proportional."
-msgstr "De breedte van het logo (px). De hoogte is propotioneel."
+#: zp-branding.php:65
+msgid ""
+"The width of the logo (px). Default is 200px.<br>The height is proportional."
+msgstr ""
+"De breedte van het logo (px). Standaard is 200px.<br>De hoogte is "
+"propotioneel."
 
-#: zp-branding.php:41
+#: zp-branding.php:66
 msgid "Custom CSS"
 msgstr "Custom CSS"
 
-#: zp-branding.php:44
+#: zp-branding.php:69
 msgid ""
-"Enter custom CSS to alter the appearance of the admin area.<br> It is "
-"printed between &lt;style&gt; tags in the &lt;head&gt; section."
+"Enter custom CSS to alter the appearance of the admin area.<br>It is printed "
+"between &lt;style&gt; tags in the &lt;head&gt; section."
 msgstr ""
 "Custom CSS om het uiterlijk van de backend te veranderen.<br> Het wordt "
 "geprint tussen &lt;style&gt; tags in het &lt;head&gt; gedeelte."
 
-#: zp-branding.php:47
+#: zp-branding.php:72
 msgid "Reset"
 msgstr "Reset"
 
-#: zp-branding.php:49
+#: zp-branding.php:74
 msgid "Reset to the original width."
 msgstr "Herstel de oorspronkelijke breedte van het eigen logo."
 
-#: zp-branding.php:54 zp-branding.php:115
+#: zp-branding.php:79 zp-branding.php:171
 #, php-format
 msgid "Image <i>%s</i> does not exist."
 msgstr "Afbeelding <i>%s</i> bestaat niet."
+
+#: zp-branding.php:88
+msgid "*Not specified*"
+msgstr "*Niets geselecteerd*"
